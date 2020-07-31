@@ -13,3 +13,4 @@ Conway Game of Life was invented by British mathematician John Horton Conway in 
 - Choose cell color
 - Dark mode
 - Slow the speed of the cells
+- Choose from 3 presets
