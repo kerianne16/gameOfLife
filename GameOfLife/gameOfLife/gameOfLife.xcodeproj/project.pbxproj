@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		553F300124D06D7700FAF9EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553F300024D06D7700FAF9EF /* AppDelegate.swift */; };
 		553F300324D06D7700FAF9EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553F300224D06D7700FAF9EF /* SceneDelegate.swift */; };
-		553F300524D06D7700FAF9EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553F300424D06D7700FAF9EF /* ViewController.swift */; };
 		553F300824D06D7700FAF9EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553F300624D06D7700FAF9EF /* Main.storyboard */; };
 		553F300A24D06D7B00FAF9EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553F300924D06D7B00FAF9EF /* Assets.xcassets */; };
 		553F300D24D06D7B00FAF9EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553F300B24D06D7B00FAF9EF /* LaunchScreen.storyboard */; };
+		553F301924D1E03200FAF9EF /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553F301824D1E03200FAF9EF /* Game.swift */; };
+		553F301B24D1E0C400FAF9EF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553F301A24D1E0C400FAF9EF /* GameViewController.swift */; };
+		553F301D24D1E85A00FAF9EF /* cellColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553F301C24D1E85A00FAF9EF /* cellColor.swift */; };
+		553F303F24D398DC00FAF9EF /* PresetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553F303E24D398DC00FAF9EF /* PresetTableViewController.swift */; };
+		553F304124D39A1300FAF9EF /* Preset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553F304024D39A1300FAF9EF /* Preset.swift */; };
+		553F304324D44C8000FAF9EF /* ColorCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553F304224D44C8000FAF9EF /* ColorCellTableViewCell.swift */; };
+		553F304524D4511000FAF9EF /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553F304424D4511000FAF9EF /* ColorCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		553F2FFD24D06D7700FAF9EF /* gameOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gameOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		553F300024D06D7700FAF9EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		553F300224D06D7700FAF9EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		553F300424D06D7700FAF9EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		553F300724D06D7700FAF9EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		553F300924D06D7B00FAF9EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		553F300C24D06D7B00FAF9EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		553F300E24D06D7B00FAF9EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		553F301824D1E03200FAF9EF /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		553F301A24D1E0C400FAF9EF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		553F301C24D1E85A00FAF9EF /* cellColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellColor.swift; sourceTree = "<group>"; };
+		553F303E24D398DC00FAF9EF /* PresetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetTableViewController.swift; sourceTree = "<group>"; };
+		553F304024D39A1300FAF9EF /* Preset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preset.swift; sourceTree = "<group>"; };
+		553F304224D44C8000FAF9EF /* ColorCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCellTableViewCell.swift; sourceTree = "<group>"; };
+		553F304424D4511000FAF9EF /* ColorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,37 @@
 		553F2FFF24D06D7700FAF9EF /* gameOfLife */ = {
 			isa = PBXGroup;
 			children = (
+				553F301624D0CDC400FAF9EF /* Model */,
+				553F301724D0CDCF00FAF9EF /* Controllers */,
 				553F300024D06D7700FAF9EF /* AppDelegate.swift */,
 				553F300224D06D7700FAF9EF /* SceneDelegate.swift */,
-				553F300424D06D7700FAF9EF /* ViewController.swift */,
 				553F300624D06D7700FAF9EF /* Main.storyboard */,
 				553F300924D06D7B00FAF9EF /* Assets.xcassets */,
 				553F300B24D06D7B00FAF9EF /* LaunchScreen.storyboard */,
 				553F300E24D06D7B00FAF9EF /* Info.plist */,
 			);
 			path = gameOfLife;
+			sourceTree = "<group>";
+		};
+		553F301624D0CDC400FAF9EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				553F301824D1E03200FAF9EF /* Game.swift */,
+				553F301C24D1E85A00FAF9EF /* cellColor.swift */,
+				553F304024D39A1300FAF9EF /* Preset.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		553F301724D0CDCF00FAF9EF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				553F301A24D1E0C400FAF9EF /* GameViewController.swift */,
+				553F303E24D398DC00FAF9EF /* PresetTableViewController.swift */,
+				553F304224D44C8000FAF9EF /* ColorCellTableViewCell.swift */,
+				553F304424D4511000FAF9EF /* ColorCollectionViewCell.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				553F300524D06D7700FAF9EF /* ViewController.swift in Sources */,
+				553F301B24D1E0C400FAF9EF /* GameViewController.swift in Sources */,
+				553F304324D44C8000FAF9EF /* ColorCellTableViewCell.swift in Sources */,
 				553F300124D06D7700FAF9EF /* AppDelegate.swift in Sources */,
 				553F300324D06D7700FAF9EF /* SceneDelegate.swift in Sources */,
+				553F301D24D1E85A00FAF9EF /* cellColor.swift in Sources */,
+				553F303F24D398DC00FAF9EF /* PresetTableViewController.swift in Sources */,
+				553F304524D4511000FAF9EF /* ColorCollectionViewCell.swift in Sources */,
+				553F301924D1E03200FAF9EF /* Game.swift in Sources */,
+				553F304124D39A1300FAF9EF /* Preset.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
